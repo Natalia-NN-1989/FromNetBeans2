@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Lesson4_1_3 {
 
     public static void main(String[] args) {
+        out(analiz());
+    }
+
+    public static boolean analiz() {
         Scanner in = new Scanner(System.in);
         System.out.print("Input 1 number: ");
         int var1 = in.nextInt();
@@ -14,10 +18,14 @@ public class Lesson4_1_3 {
         int var3 = in.nextInt();
         boolean value;
         if (var1 + var2 == var3) {
-            value = true;
+            value= true;
         } else {
-            value = false;
+            value= false;
         }
+return value;
+    }
+
+    public static void out(boolean value) {
         System.out.print("Value is " + value);
     }
 }
