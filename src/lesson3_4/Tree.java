@@ -25,4 +25,5 @@ public class Tree {
     public String toString() {
         return "Возраст = " + this.age + " Имя = " + this.name + " Живое " + this.life;
     }
+    
 }
